@@ -23,9 +23,9 @@ html {
 
  /*GLOBALES*/
 body{
-    background-color: var(--secundario);
     font-size: 1.6rem;
     line-height: 1.5; /*Interlineado 1.5 veces de la base de la fuente*/
+    background-image: linear-gradient( to top, var(--negro) 0%, var(--secundario) 100%);
 }
 
 p{
@@ -54,6 +54,10 @@ h2, h3{
     font-family: var(--fuentePrincipal);
 }
 
+p{
+    font-family: var(--fuentePrincipal);
+}
+
 h1{ font-size: 4rem;    }
 h2{ font-size: 3.2rem;  }
 h3{ font-size: 2.4rem;  }
@@ -79,7 +83,7 @@ h3{ font-size: 2.4rem;  }
 }
 
 .footer__texto{
-    font-family: var(--fuentePrincipal);
+    color: var(--negro);
     text-align: center;
     font-size: 2.2rem;
 }
@@ -136,7 +140,8 @@ h3{ font-size: 2.4rem;  }
     width: 20rem;
 }
 
-.tarjeta__imagen{
+.tarjeta__imagen, 
+.historia__imagen{
     max-width: 100%;
 }
 
@@ -152,6 +157,27 @@ h3{ font-size: 2.4rem;  }
     margin-top: 0;
     text-align: center;
     padding-top: 50%;
+}
+
+.contenedor__texto{
+    background-color: var(--blanco);
+    text-align: center;
+    padding-top: 50%;
+    margin-top: 0;
+    color: var(--negro);
+}
+
+/*INFORMACION*/
+.historia{
+    max-width: 120rem;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+.historia__texto{
+    text-align: justify;
 }
 
 
