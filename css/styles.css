@@ -137,7 +137,7 @@ h3{ font-size: 2.4rem;  }
 /*TARJETAS DE ETAPA*/
 .tarjeta{
     background-color: var(--secundario);
-    width: 20rem;
+    max-width: 100%;
 }
 
 .tarjeta__imagen, 
@@ -152,9 +152,19 @@ h3{ font-size: 2.4rem;  }
     margin-top: 0;
 }
 
+.tarjeta__imagen{
+    transition: .3s ease;
+}
+
+.tarjeta__imagen:hover{
+    transform: scale(1.5);
+}
+
+/*CONTENEDOR*/
 .contenedor__titulo{
     background-color: var(--blanco);
     margin-top: 0;
+    margin-bottom: 0;
     text-align: center;
     padding-top: 50%;
 }
@@ -164,20 +174,33 @@ h3{ font-size: 2.4rem;  }
     text-align: center;
     padding-top: 50%;
     margin-top: 0;
+    margin-bottom: 0;
     color: var(--negro);
 }
 
+
+
 /*INFORMACION*/
 .historia{
-    max-width: 120rem;
+    max-width: 100%;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: var(--quinto);
     display: grid;
     grid-template-columns: 15% 85%;
-    margin: 0 auto;
-    gap: 2rem;
 }
 
 .historia__texto{
     text-align: justify;
+    color: var(--negro);
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.historia__imagen{
+    border-radius: 50%;
 }
 
 
