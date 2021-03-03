@@ -203,5 +203,14 @@ h3{ font-size: 2.4rem;  }
     border-radius: 50%;
 }
 
+.ET2_1{
+    grid-column: 3 / 5;
+}
+
+.img_dobleC{
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
 
 
