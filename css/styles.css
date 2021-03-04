@@ -44,7 +44,7 @@ img{
 
 h1{
     text-align: center;
-    color: var(--negro);
+    color: var(--blanco);
     font-family: var(--fuenteSecundaria);
 }
 
@@ -66,7 +66,13 @@ h3{ font-size: 2.4rem;  }
 .header{
     display: flex;
     justify-content: center;
-    background-color: var(--tercero);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    /*background-color: var(--tercero);*/
+    background-image: url("../img/Cover_1.jpg");
+    background-position-y: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header__titulo{
@@ -93,7 +99,6 @@ h3{ font-size: 2.4rem;  }
     max-width: 120rem;
     margin: 0 auto;
     padding-top: 2rem;
-
 }
 
 /*NAVEGACION*/
@@ -150,6 +155,7 @@ h3{ font-size: 2.4rem;  }
     font-size: 2rem;
     text-align: center;
     margin-top: 0;
+    
 }
 
 .tarjeta__imagen{
@@ -203,6 +209,7 @@ h3{ font-size: 2.4rem;  }
     border-radius: 50%;
 }
 
+/*IMAGENES A 2 O MAS COLUMNAS*/
 .ET2_1{
     grid-column: 3 / 5;
 }
@@ -211,6 +218,3 @@ h3{ font-size: 2.4rem;  }
     margin-bottom: auto;
     margin-top: auto;
 }
-
-
-
