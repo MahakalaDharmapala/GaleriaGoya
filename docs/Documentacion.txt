@@ -1,1 +1,10 @@
-Agregar el documento de planeacion
+INICIO DEL PROYECTO
+	|
+	|
+	|
+12 COMMITS HASTA ESTE PUNTO
+
+**Empieza la bitácora**
+
+12032021 - Añadir nuevas pinturas a las epocas (9:00 pm aprox)
+13032021 - Carousel, Caprichos, Footer con redes sociales (11:00 am)

@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria Goya</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@500&display=swap" rel="stylesheet">
@@ -31,6 +34,9 @@
         <a href="#" class="navegacion__enlace ">Donar</a>
     </nav>
 
+    
+
+<main>
     <div class="historia">
         <img class="historia__imagen" src="img/Goya_Retrato.jpg" alt="imagen informacion">
         <p class="historia__texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt tempora incidunt reiciendis error totam 
@@ -43,7 +49,57 @@
             doloribus voluptatum amet, necessitatibus quibusdam pariatur ipsa accusantium suscipit aut.</p>
     </div>
 
-<main>
+    <div class="contenedorCar">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/Carousel/Car_LaMajaVestida.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/Carousel/Car_LaPraderaDeSanIsidro.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/Carousel/Car_LaLetraConSangreEntra.jpg" class="d-block w-100" alt="...">
+              </div>
+              
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+
+   
+
+      
+
+<div class="primerContenedor">
+    <h2 class="primerContenedor__titulo">TITULO</h2>
+    <p class="primerContenedor__texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, quaerat facilis! Eaque ex, 
+        cumque aliquid maiores ipsam laboriosam labore, possimus, 
+        voluptates quo fugit ipsum quisquam doloribus? Iure, vitae? Aspernatur, obcaecati?
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, quaerat facilis! Eaque ex, 
+        cumque aliquid maiores ipsam laboriosam labore, possimus, 
+        voluptates quo fugit ipsum quisquam doloribus? Iure, vitae? Aspernatur, obcaecati?
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, quaerat facilis! Eaque ex</p>
+        
+        <img class="primerContenedor__imagen1" src="img/Caprichos/C2_NoHuboRemedio.jpg" alt="capricho">
+        <img class="primerContenedor__imagen2" src="img/Caprichos/C5_YaunNoSeVan.jpg" alt="capricho">
+        
+        
+
+</div>
+
 <div class="contenedor"> <!--PRIMERA ETAPA: ROCOCÓ HASTA 1792-->
     <div class="grid">
         <h2 class="contenedor__titulo">Primera etapa</h2>
@@ -234,7 +290,7 @@
     </div>
 </div>
 
-<div class="contenedor">
+<div class="contenedor">  <!--ETAPA 3 DE 1808 - 1814 -->
     <div class="grid">
         <h2 class="contenedor__titulo">Tercera <br> etapa</h2>
         <p class="contenedor__texto">1808 - 1814</p>
@@ -326,7 +382,7 @@
     </div>
 </div>
 
-<div class="contenedor ET4">
+<div class="contenedor"> <!--ETAPA 4 DE 1814 - 1828 -->
     <div class="grid">
         <h2 class="contenedor__titulo">Cuarta <br> etapa</h2>
         <p class="contenedor__texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
@@ -426,17 +482,53 @@
 
 
     </div>
-    </div>
-
-
+</div>
 
 </main>
+
 <footer class="footer">
-    <p class="footer__texto"> 
-        Alumno: Duron de Luna Oscar  Alejandro 
-        <br> Instituto Tecnológico de Aguascalientes
-        <br> Materia: Programación Web 
-        <br> Proyecto: Galeria Goya</p>
+    <div>
+        <p class="footer__texto1"> 
+            Alumno: Duron de Luna Oscar  Alejandro 
+            <br> Instituto Tecnológico de Aguascalientes
+            <br> Materia: Programación Web 
+            <br> Proyecto: Galeria Goya
+            <br> Contacto: 18151661@aguascalientes.tecnm.mx</p>
+    </div>
+
+    <div>
+        <p class="footer__texto2">
+            IMPORTANTE: Esta página es simplemente un proyecto escolar, por lo tanto, ningúna pintura, video o grabado
+            es propiedad del autor de esta página web. Este espacio es un simple proyecto de materia.
+        </p>
+    </div>
+
+        <section class="footer__redsocial">
+            <a href="https://www.youtube.com/channel/UC3_1hPsw4KzgXJQD8ClzZIA">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-youtube" width="64" height="64" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="3" y="5" width="18" height="14" rx="4" />
+                    <path d="M10 9l5 3l-5 3z" />
+                  </svg>
+            </a>
+              <p class="redsocial__nom">YouTube /SimaQian</p>
+        </section>
+
+        <section class="footer__redsocial">
+            <a href="https://github.com/MahakalaDharmapala">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="64" height="64" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                  </svg>
+            </a>
+              <p class="redsocial__nom">/Mahakala Dharmapala</p>
+        </section>
+
+    
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
 </body>
 </html>
