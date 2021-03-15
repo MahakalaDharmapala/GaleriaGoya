@@ -8,3 +8,5 @@ INICIO DEL PROYECTO
 
 12032021 - Añadir nuevas pinturas a las epocas (9:00 pm aprox)
 13032021 - Carousel, Caprichos, Footer con redes sociales (11:00 am)
+14032021 - Responsivo, correcciones generales, formulario
+15032021 - Paypal, informacion del sitio, responsivo, estructura
