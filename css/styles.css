@@ -623,6 +623,7 @@ li{
     padding: 2rem;
     margin: 0 auto; /*Usarlo para centrar cuando el padre no sea un display flex*/
     border-radius: 1rem;
+    margin-bottom: 2rem;
 }
     /* quitamos los bordes del fieldset*/
 .formulario fieldset{
@@ -676,3 +677,24 @@ li{
     border-radius: .5rem;
 }
     
+.botones{
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.botonPaypal{
+    justify-content: center;
+    margin:0 auto;
+}
+
+@media (max-width: 768px) {
+    .botones{
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: none;
+        gap: 2rem;
+        justify-content: center;
+    }
+}
+
