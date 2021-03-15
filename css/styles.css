@@ -196,7 +196,7 @@ h3{ font-size: 2.4rem;  }
 
 /*CONENIDO DEL CONTENEDOR*/
 .contenedor__titulo{
-    background-color: var(--blanco);
+    background-color: var(--primario);
     margin-top: 0;
     margin-bottom: 0;
     padding-bottom: 0;
@@ -205,7 +205,7 @@ h3{ font-size: 2.4rem;  }
 }
 
 .contenedor__texto{
-    background-color: var(--blanco);
+    background-color: var(--primario);
     text-align: center;
     padding-top: 50%;
     /*margin-top: 5rem;*/
@@ -400,7 +400,7 @@ h3{ font-size: 2.4rem;  }
 
 .primerContenedor__informacion__texto{
     text-align: justify;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .primerContenedor__imagen{
@@ -504,7 +504,7 @@ h3{ font-size: 2.4rem;  }
 .segundoContenedor__informacion__texto{
     text-align: justify;
     background-color: var(--primario);
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .video_yt{
@@ -532,7 +532,7 @@ h3{ font-size: 2.4rem;  }
 
 .tercerContenedor__informacion__texto{
     text-align: justify;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .tercerContenedor__imagen{
@@ -687,6 +687,7 @@ li{
 .botonPaypal{
     justify-content: center;
     margin:0 auto;
+    max-width: 80%;
 }
 
 @media (max-width: 768px) {
@@ -696,5 +697,15 @@ li{
         gap: 2rem;
         justify-content: center;
     }
+
+    .alinear-derecha{
+        margin: 0 auto;
+    }
 }
+
+.alinear-derecha{
+    margin: 0 auto;
+    max-width: 100%;
+}
+/*FIN DEL FORMULARIO*/
 
