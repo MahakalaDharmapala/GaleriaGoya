@@ -95,6 +95,7 @@ h3{ font-size: 2.4rem;  }
     padding-top: 5rem;
     padding-bottom: 5rem;
     background-image: url("../img/Cover_1.jpg");
+    background-attachment: fixed;
     background-position-y: 30%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -387,6 +388,7 @@ h3{ font-size: 2.4rem;  }
     display: grid;
     grid-template-columns: 60% 40%;
     background-color: var(--primario);
+    box-shadow: 10px 5px 5px black;
 }
 
 .primerContenedor__información{
@@ -477,6 +479,7 @@ h3{ font-size: 2.4rem;  }
     grid-template-columns: 60% 40%;
     background-color: var(--quinto);
     padding: 1rem;
+    box-shadow: 10px 5px 5px black;
 }
 
 /*MQ PARA RESOLUCIONES MENORES DE 480*/
@@ -519,6 +522,7 @@ h3{ font-size: 2.4rem;  }
     display: grid;
     grid-template-columns: 60% 40%;
     background-color: var(--primario);
+    box-shadow: 10px 5px 5px black;
 }
 
 .tercerContenedor__información{
