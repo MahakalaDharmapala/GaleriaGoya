@@ -672,6 +672,7 @@ li{
     
 .campo textarea{
     height: 18rem;
+    resize: none;
 }
     
 .input-text{
@@ -711,5 +712,8 @@ li{
     margin: 0 auto;
     max-width: 100%;
 }
+
+
+
 /*FIN DEL FORMULARIO*/
 

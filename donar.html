@@ -23,11 +23,13 @@
     <link rel="stylesheet" href="css/normalize.css">
 
     <link rel="shortcut icon" type="image\png" href="img/miniatura.png">
+
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 
 <body>
     <header class="header"> 
-        <a href="index.html"><h1 class="header__titulo">Galeria Goya</h1></a>
+        <a href="index.html"><h1 class="header__titulo animate__animated animate__fadeInDown">Galeria Goya</h1></a>
     </header>
 
     <nav class="navegacion">
@@ -45,22 +47,22 @@
                         <div class="contenedor-campos">
                         <div class="campo">
                             <label>Nombre</label>
-                            <input class="input-text" type="text" placeholder="Nombre">
+                            <input class="input-text nombre" type="text" placeholder="Nombre" required pattern="([A-zÀ-ž\s]){2,}">
                 </div>
 
                 <div class="campo">
                     <label>Teléfono</label>
-                    <input class="input-text" type="text" placeholder="Teléfono">
+                    <input class="input-text telefono" type="tel" placeholder="Teléfono (000-000-00-00)" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" required>
                 </div>
 
                 <div class="campo">
                     <label>Correo</label>
-                    <input class="input-text" type="email" placeholder="Email">
+                    <input class="input-text correo" type="email" placeholder="Email" required>
                 </div>
 
                 <div class="campo">
                     <label>Mensaje</label>
-                    <textarea class="input-text"></textarea>
+                    <textarea class="input-text mensaje" maxlength="120"></textarea>
                 </div>
             </div> <!--Contenedor-campos-->
 
