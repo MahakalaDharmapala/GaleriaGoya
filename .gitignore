@@ -21,3 +21,19 @@
 /reactJs/npm-debug.log*
 /reactJs/yarn-debug.log*
 /reactJs/yarn-error.log*
+
+# Laravel
+
+/goya-laravel-back/node_modules
+/goya-laravel-back/public/hot
+/goya-laravel-back/public/storage
+/goya-laravel-back/storage/*.key
+/goya-laravel-back/vendor
+/goya-laravel-back/.env
+/goya-laravel-back/.env.backup
+/goya-laravel-back/.phpunit.result.cache
+/goya-laravel-back/Homestead.json
+/goya-laravel-back/Homestead.yaml
+/goya-laravel-back/npm-debug.log
+/goya-laravel-back/yarn-error.log
+
